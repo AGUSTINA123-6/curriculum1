@@ -1,0 +1,76 @@
+/* Estilos para el menú en la parte de arriba */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Estilos para el título y texto al centro */
+  .seccion {
+    text-align:center;
+  }
+  .paisaje{
+    background-color: #56d88c;
+  }
+  .container2{ background-color: #17ac5a;}
+  .titulo1 {
+    font-family: Verdana, sans-serif;
+    color: #33e0d2;
+  }
+  
+  .p1 {
+    font-family: Verdana, sans-serif;
+    color: #d3ff81;
+  }
+  .titulo2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #f77d7d;}
+  .p2{font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #d3ff81;}
+  a {
+    color: #142bf7;
+    text-decoration: none;
+  }
+  img {width: 200px;
+    height:200px ;}
+  /* Estilos para el footer */
+  footer {
+    background-color: #000000;
+    color: #ececec;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  footer ul li {
+    display: inline;
+    margin-right:10px;
+  }
+  
+  footer ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  

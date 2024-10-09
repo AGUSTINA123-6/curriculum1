@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de contacto</title>
+</head>
+<body>
+    <header>
+        <nav>
+          <ul>
+            <li><a href="contacto.html">contacto</a></li>
+            <li><a href="index.html">Inicio</a></li>
+        </header>
+
+          </ul>
+        </nav>
+    </header>
+    <h2>Formulario de contacto</h2>
+    <form action></form>="/procesar_formulario.php" method="post">
+    <!-- aca van los campos del formulario-->
+    <!--action:Especifica la URL a la que se enviarán los datos del formulario cuando se envíe-->
+    <!--method: Define el método HTTP utilizado para enviar los datos del formulario.GET: Los datos del formulario se enviarán como parte de la URL en la barra de direcciones del navegador,-->
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+
+        <label for="correo">Correo electrónico:</label>
+        <input type="email" id="correo" name="correo" required><br><br>
+
+        <label for="mensaje">Mensaje:</label><br>
+        <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea><br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
